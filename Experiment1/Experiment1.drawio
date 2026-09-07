@@ -1,0 +1,290 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="FGpdpESvmqRIMmWg3P2h">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=23;align=left;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413" y="400" as="sourcePoint" />
+            <mxPoint x="413" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=23;align=left;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="80" />
+            </Array>
+            <mxPoint x="13" y="80" as="sourcePoint" />
+            <mxPoint x="763" y="76.02272727272725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-7" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;strokeWidth=16;fontSize=23;" value="Functinal" vertex="1">
+          <mxGeometry height="30" width="342" x="13" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;strokeWidth=16;fontColor=#ffffff;fontSize=23;" value="Non Functinal" vertex="1">
+          <mxGeometry height="30" width="292" x="423" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-13" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="Redirecte to the appropriate link from short URL" vertex="1">
+          <mxGeometry height="30" width="362" x="13" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-14" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="Turn the long URL into Short URL" vertex="1">
+          <mxGeometry height="30" width="362" x="13" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-15" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="The Short URL must be unique" vertex="1">
+          <mxGeometry height="30" width="362" x="433" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-16" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="User can set the time of expiration for the URL" vertex="1">
+          <mxGeometry height="30" width="362" x="13" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-17" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="Low Latency: The read operation must execute in a few ms.( 50ms to 100ms)" vertex="1">
+          <mxGeometry height="60" width="382" x="433" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-18" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=23;" value="Highly Available: The redirection must always be available" vertex="1">
+          <mxGeometry height="30" width="400" x="433" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-19" parent="1" style="whiteSpace=wrap;html=1;fontSize=25;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=center;" value="&lt;div&gt;URL Shortner: Back of the envelop estimantion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="702" x="63" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Total Users: 1 Billion&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="197" x="43" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Daily Active User: 200 Million" vertex="1">
+          <mxGeometry height="30" width="222" x="48" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="1 User: 40 Reads, 10 Writes" vertex="1">
+          <mxGeometry height="30" width="347" x="43" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Total requestes/day: 10 Billion" vertex="1">
+          <mxGeometry height="30" width="347" x="43" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;align=left;" value="To find: Number of Server, Data Storage&amp;nbsp; and&amp;nbsp; RAM for 5 years.&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="407" x="190" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YV8CaZKgzl0PA3UNRp4y-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Requestes/Second: 125 Thousands/second" vertex="1">
+          <mxGeometry height="30" width="367" x="43" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;div&gt;(Assume) 1 server = 100 thread, Latency = 500ms&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="437" x="43" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#ffffff;" value="Number of Server: 625 Servers" vertex="1">
+          <mxGeometry height="30" width="400" x="43" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;div&gt;Daily Write: 200M *&amp;nbsp; 10 =2 Billion URL/day&lt;/div&gt;&lt;div&gt;(Assume) 1URL = 1KB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="437" x="43" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Daily Storage: 2TB/day" vertex="1">
+          <mxGeometry height="30" width="437" x="43" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#ffffff;" value="Data Storage(5 years): 3.7PB" vertex="1">
+          <mxGeometry height="30" width="437" x="43" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="CLG-o3R2CbszEWRtb1su-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Reads per day = 8Billion/day" vertex="1">
+          <mxGeometry height="50" width="437" x="40" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="WJFMHSKKpx5mm7zNn8R8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Total Daily Read Data Volume: 8Billion read* 1 KB/URL = 8 TB/day&lt;div class=&quot;math-block&quot; style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="640" x="40" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="WJFMHSKKpx5mm7zNn8R8-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;div class=&quot;math-block&quot; style=&quot;font-family: Google Sans Text, sans-serif !important; line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;Base Daily Hot Cache: 1.6 TB RAM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="437" x="40" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="WJFMHSKKpx5mm7zNn8R8-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=20;fontColor=#ffffff;" value="Project RAM Growth Over 5 Years: 3.3 TB" vertex="1">
+          <mxGeometry height="30" width="437" x="43" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="WJFMHSKKpx5mm7zNn8R8-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=20;" value="Cluster Node Count (using standard 64 GB RAM nodes): 106 Cache Servers" vertex="1">
+          <mxGeometry height="30" width="597" x="43" y="1280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-1" id="zQ-J05bVnzwRAjUOorMU">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-0" />
+        <mxCell id="JoVhS36GrUVeYlgIQafB-1" parent="JoVhS36GrUVeYlgIQafB-0" />
+        <mxCell id="JoVhS36GrUVeYlgIQafB-2" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" style="endArrow=none;html=1;rounded=0;fontSize=14;align=left;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="458" y="-419" as="sourcePoint" />
+            <mxPoint x="458" y="-739" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-3" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" style="endArrow=none;html=1;rounded=0;fontSize=19;align=left;fontStyle=1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="-739" />
+            </Array>
+            <mxPoint x="58" y="-739" as="sourcePoint" />
+            <mxPoint x="808" y="-742.9772727272727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-4" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;strokeWidth=16;fontSize=19;fontStyle=1" value="Functinal" vertex="1">
+          <mxGeometry height="30" width="342" x="58" y="-789" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-5" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;rounded=0;strokeWidth=16;fontColor=#ffffff;fontSize=19;fontStyle=1" value="Non Functinal" vertex="1">
+          <mxGeometry height="30" width="292" x="468" y="-789" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-6" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="Redirecte to the appropriate link from short URL" vertex="1">
+          <mxGeometry height="30" width="362" x="58" y="-579" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-7" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="Turn the long URL into Short URL" vertex="1">
+          <mxGeometry height="30" width="362" x="58" y="-689" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-8" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="The Short URL must be unique" vertex="1">
+          <mxGeometry height="30" width="362" x="478" y="-689" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-9" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="User can set the time of expiration for the URL" vertex="1">
+          <mxGeometry height="30" width="362" x="58" y="-489" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-10" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="Low Latency: The read operation must execute in a few ms.( 50ms to 100ms)" vertex="1">
+          <mxGeometry height="60" width="382" x="478" y="-594" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-11" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;rounded=0;perimeterSpacing=20;fontSize=19;fontStyle=1" value="Highly Available: The redirection must always be available" vertex="1">
+          <mxGeometry height="30" width="362" x="478" y="-489" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-12" parent="JoVhS36GrUVeYlgIQafB-1" style="whiteSpace=wrap;html=1;fontSize=31;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;align=center;fontStyle=1" value="&lt;div&gt;Back of the envelop estimantion&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="702" x="108" y="-379" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-13" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="Total Users: 1 Billion&amp;nbsp;" vertex="1">
+          <mxGeometry height="32" width="602" x="88" y="-229" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-14" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="Daily Active User: 200 Million" vertex="1">
+          <mxGeometry height="32" width="507" x="93" y="-189" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-15" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="1 User: 40 Reads, 10 Writes" vertex="1">
+          <mxGeometry height="32" width="592" x="88" y="-149" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-16" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="Total requestes/day: 10 Billion" vertex="1">
+          <mxGeometry height="32" width="347" x="88" y="-99" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-17" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;align=left;fontStyle=1" value="To find: Number of Server, Data Storage&amp;nbsp; and&amp;nbsp; RAM for 5 years.&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="555" x="181.5" y="-300" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-18" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="Requestes/Second: 125 Thousands/second" vertex="1">
+          <mxGeometry height="30" width="622" x="88" y="-59" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-19" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="&lt;div&gt;(Assume) 1 server = 100 thread, Latency = 500ms&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="682" x="88" y="-19" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-20" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=33;fontColor=#ffffff;fontStyle=1" value="Number of Server: 625 Servers" vertex="1">
+          <mxGeometry height="30" width="592" x="88" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-21" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1" value="&lt;div&gt;Daily Write: 2 Billion URL/day&lt;/div&gt;&lt;div&gt;(Assume) 1URL = 1KB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="742" x="88" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-22" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=25;fontStyle=1" value="Daily Storage: 2TB/day" vertex="1">
+          <mxGeometry height="30" width="437" x="88" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-23" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=35;fontColor=#ffffff;fontStyle=1" value="Data Storage(5 years): 3.7PB" vertex="1">
+          <mxGeometry height="30" width="592" x="88" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="JoVhS36GrUVeYlgIQafB-24" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=21;fontStyle=1" value="Reads per day = 8 Billion/day" vertex="1">
+          <mxGeometry height="30" width="437" x="85" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-0" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=21;fontStyle=1" value="&lt;div&gt;(Assume) URL to Cache (20%): 1.6B URLs/day&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="586" x="94" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-1" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=21;fontStyle=1" value="&lt;div align=&quot;left&quot;&gt;Size per cache record: 1KB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="437" x="95" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-2" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=middle;rounded=0;fontSize=37;fontColor=#ffffff;fontStyle=1" value="&lt;div align=&quot;left&quot;&gt;RAM required: 1.6TB/Day&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="585" x="95" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-91" parent="JoVhS36GrUVeYlgIQafB-1" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#ffffff;" value="URL Shortener System Architecture (200M Daily Active User)" vertex="1">
+          <mxGeometry height="40" width="700" x="40" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-92" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=#64748B;fontStyle=1;fontSize=20;fontColor=#0F172A;" value="Client Browsers / Mobile Apps&#xa;(10 Billion Req/Day)" vertex="1">
+          <mxGeometry height="50" width="300" x="240" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-93" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;fontStyle=1;fontSize=20;fontColor=#1E3A8A;" value="API Gateway / Load Balancer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="340" x="220" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-98" parent="JoVhS36GrUVeYlgIQafB-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E0F2FE;strokeColor=#0284C7;fontStyle=1;fontSize=20;fontColor=#0C4A6E;" value="Distributed Database&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="10" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-99" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#475569;fontSize=20;fontStyle=1" target="uHCDdX2yOfLK5j3WUtvz-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-100" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16A34A;fontStyle=1;fontSize=20;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="870" />
+            </Array>
+            <mxPoint x="390" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-106" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;fontSize=20;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="90" width="260" x="216.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-107" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;fontSize=20;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="80" width="250" x="188.5" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-108" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fontSize=20;fontStyle=1" value="&lt;font&gt;Servers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="160" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-109" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#16A34A;fontStyle=1;fontSize=20;exitX=0.46;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279.59" y="1168.04" />
+            </Array>
+            <mxPoint x="280" y="1070" as="sourcePoint" />
+            <mxPoint x="280" y="1178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-111" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" style="endArrow=classic;html=1;rounded=0;fontSize=20;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1170" />
+            </Array>
+            <mxPoint x="279" y="1170" as="sourcePoint" />
+            <mxPoint x="480" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-112" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" style="endArrow=classic;html=1;rounded=0;fontSize=20;fontStyle=1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="1170" />
+            </Array>
+            <mxPoint x="280" y="1170" as="sourcePoint" />
+            <mxPoint x="80" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-113" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=21;fontStyle=1" value="URL Generator" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-114" parent="JoVhS36GrUVeYlgIQafB-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;fontSize=20;fontStyle=1" value="Redirection Service" vertex="1">
+          <mxGeometry height="50" width="180" x="390" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-115" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-113" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.385;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;fontStyle=1" target="uHCDdX2yOfLK5j3WUtvz-98" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1390" />
+            </Array>
+            <mxPoint x="460" y="1370" as="sourcePoint" />
+            <mxPoint x="510" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-116" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-98" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;fontStyle=1" target="uHCDdX2yOfLK5j3WUtvz-114" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="1370" />
+            </Array>
+            <mxPoint x="460" y="1370" as="sourcePoint" />
+            <mxPoint x="510" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-117" parent="JoVhS36GrUVeYlgIQafB-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E0F2FE;strokeColor=#0284C7;fontStyle=1;fontSize=20;fontColor=#0C4A6E;" value="RAM/Cache" vertex="1">
+          <mxGeometry height="155" width="90" x="414" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="uHCDdX2yOfLK5j3WUtvz-118" edge="1" parent="JoVhS36GrUVeYlgIQafB-1" source="uHCDdX2yOfLK5j3WUtvz-117" style="endArrow=classic;html=1;rounded=0;exitX=0.733;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;fontStyle=1" target="uHCDdX2yOfLK5j3WUtvz-114" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1330" />
+            </Array>
+            <mxPoint x="480" y="1400" as="sourcePoint" />
+            <mxPoint x="510" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
